@@ -45,6 +45,16 @@ const questions = [
         'Apache License 2.0',
       ],
     },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'Please enter your GitHub username.',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Please enter your email address.',
+    },
   ];
 
 function writeToFile(fileName, data) {}

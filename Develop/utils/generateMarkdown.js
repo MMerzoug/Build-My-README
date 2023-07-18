@@ -38,10 +38,11 @@ function generateMarkdown(data) {
   1. [Description](#description)
   2. [Installation Instructions](#installationInstructions)
   3. [Usage Information](#usageInformation)
-  5. [Contribution Guidelines](#contributionGuidelines)
-  6. [Test Instructions](#testInstructions)
-  4. [License](#license)
- 
+  4. [Contribution Guidelines](#contributionGuidelines)
+  5. [Test Instructions](#testInstructions)
+  6. [License](#license)
+  7. [Questions](#questions)
+
 ## Description
 ${data.description}
 
@@ -59,6 +60,10 @@ ${data.testInstructions}
 
 ## License
 ${renderLicenseLink(data.license)}
+
+## Questions
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}).
+
 
 `;
 }
